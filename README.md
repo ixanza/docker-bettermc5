@@ -1,4 +1,4 @@
-# [All the Mods 10-2.34](https://www.curseforge.com/minecraft/modpacks/all-the-mods-10) on Curseforge
+# [BetterMC5]([https://www.curseforge.com/minecraft/modpacks/all-the-mods-10](https://www.curseforge.com/minecraft/modpacks/better-mc-neoforge-bmc5)) on Curseforge
 <!-- toc -->
 
 - [Description](#description)
@@ -9,7 +9,7 @@
   * [Accept the EULA](#accept-the-eula)
   * [Permissions of Files](#permissions-of-files)
   * [Resetting](#resetting)
-- [Source](#source-original-atm9-repo)
+- [Source](#source-all-the-mods-10)
 
 <!-- tocstop -->
 
@@ -17,7 +17,7 @@
 
 This container is built to run on an [Unraid](https://unraid.net) server, outside of that your mileage will vary.
 
-The docker on the first run will download the same version as tagged `All the Mods 10-2.34` and install it.  This can take a while as the Forge installer can take a bit to complete.  You can watch the logs and it will eventually finish.
+The docker on the first run will download the same version as tagged `1.21.1 v18` and install it.  This can take a while as the Forge installer can take a bit to complete.  You can watch the logs and it will eventually finish.
 
 After the first run, it will simply start the server.
 
@@ -36,7 +36,7 @@ As the end user, you are responsible for accepting the EULA from Mojang to run t
 These environment variables can be set to override their defaults.
 
 * JVM_OPTS "-Xms2048m -Xmx4096m"
-* MOTD "All the Mods 10-2.34 Server Powered by Docker"
+* MOTD "BetterMC5"
 * ALLOW_FLIGHT "true" or "false"
 * MAX_PLAYERS "5"
 * ONLINE_MODE "true" or "false"
@@ -55,12 +55,7 @@ This container is designed for [Unraid](https://unraid.net) so the user in the c
 ### Resetting
 If the installation is incomplete for some reason.  Deleting the downloaded server file in /data will restart the install/upgrade process.
 
-## Source (Original ATM9 repo)
-Github: https://github.com/Goobaroo/docker-allthemods9
-
-Docker: https://hub.docker.com/repository/docker/goobaroo/allthemods9
-
-## Source (This repo)
+## Source (All The Mods 10)
 Github: https://github.com/W3LFARe/docker-allthemods10
 
 Docker: https://registry.hub.docker.com/r/w3lfare/allthemods10 
